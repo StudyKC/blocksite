@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            Block Site
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <style>
+            body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+p {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+span{
+    color:silver;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+        </style>
+    </head>
+    <body>
+        <center>
+            <p>This Site Has Been Blocked</p>
+            <span>To Unblock, go to <a href="chrome-extension://eiimnmioipafcokbfikbljfdeojpcgbh/public/options.html#/BLOCK_SITES">BlockSite Extension Page</a></span>
+            <span>If u have install the extension.</span><br/><br/>
+            <span>If u haven't install the extension, click <a href="https://chrome.google.com/webstore/detail/blocksite-block-websites/eiimnmioipafcokbfikbljfdeojpcgbh?hl=en">Here</a> to install.</span>
+            <br/><br/><br/><br/><br/><br/><br/>
+            <span>Build by <a href="https://github.com/Fire-App-YT/">Fire-App-YT</a></span>
+        </center>
+    </body>
+</html>
